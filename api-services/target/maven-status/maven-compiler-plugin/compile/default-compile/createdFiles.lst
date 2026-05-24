@@ -1,0 +1,8 @@
+com\logtrack\app\config\KafkaConfig.class
+com\logtrack\app\model\LogEntity.class
+com\logtrack\app\AppApplication.class
+com\logtrack\app\service\LogServiceInter.class
+com\logtrack\app\serviceimpl\LogService.class
+com\logtrack\app\controller\LogViewer.class
+com\logtrack\app\consumer\KafkaLogConsumer.class
+com\logtrack\app\repositry\LogRepo.class
