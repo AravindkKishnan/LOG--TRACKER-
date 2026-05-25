@@ -20,7 +20,7 @@ public class LogViewer {
     @Autowired
     private LogRepo repo;
 
-    @PostMapping("/test")
+   @GetMapping("/test")
 public String addTestLog() {
     LogEntity log = new LogEntity();
     log.setLevel("INFO");
