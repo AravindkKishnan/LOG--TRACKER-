@@ -2,7 +2,7 @@ import axios from "axios";
 
 // create reusable instance
 const API = axios.create({
-  baseURL: "http://localhost:8080", // your Spring Boot URL
+  baseURL: "https://log-tracker-q2ly.onrender.com",
 });
 
 // GET logs with filters
