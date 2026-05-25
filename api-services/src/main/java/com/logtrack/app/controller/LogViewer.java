@@ -13,8 +13,7 @@ import com.logtrack.app.repositry.LogRepo;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:5173",
-    "https://log-track.onrender.com"})
+@CrossOrigin(origins = "*")
 public class LogViewer {
 
     @Autowired
